@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supermercado La Economía</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    Este es mi home
+
+    <header>
+        <div class="logo">Supermercado La Economía</div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenido a tu supermercado de confianza</h1>
+        <p>Las mejores ofertas todos los días</p>
+        <button id="btnOfertas">Ver ofertas</button>
+    </section>
+
+    <section class="productos-destacados">
+        <h2>Productos Destacados</h2>
+
+        <div class="grid">
+            <div class="card">
+                <img src="https://picsum.photos/300?random=1" alt="Producto">
+                <h3>Arroz Premium</h3>
+                <p>$12.500</p>
+                <button class="btnComprar">Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/300?random=2" alt="Producto">
+                <h3>Leche Entera</h3>
+                <p>$4.500</p>
+                <button class="btnComprar">Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://picsum.photos/300?random=3" alt="Producto">
+                <h3>Huevos AA Docena</h3>
+                <p>$8.000</p>
+                <button class="btnComprar">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Supermercado La Economía – Todos los derechos reservados
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
