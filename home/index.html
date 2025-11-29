@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio - Mi Sitio Web</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Este es mi home
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">MiSitio</div>
+            <ul class="nav-list">
+                <li><a href="../home/index.html" class="nav-link active">Inicio</a></li>
+                <!-- Aquí luego irán más enlaces del sitio -->
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Bienvenido a Nuestro Sitio</h1>
+                <p class="hero-description">Descubre nuestras soluciones innovadoras y servicios de calidad.</p>
+                <button class="cta-button" id="ctaButton">Explorar Más</button>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Nuestras Características</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Característica 1</h3>
+                        <p>Descripción breve de la primera característica principal.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Característica 2</h3>
+                        <p>Descripción breve de la segunda característica principal.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Característica 3</h3>
+                        <p>Descripción breve de la tercera característica principal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MiSitio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
